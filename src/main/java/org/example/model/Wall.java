@@ -1,14 +1,14 @@
 package org.example.model;
 
 public class Wall {
-    private String direcion;
+    private String direction;
 
     public Wall(String direcion) {
-        this.direcion = direcion;
+        this.direction = direcion;
     }
 
-    public String getDirecion() {
-        return direcion;
+    public String getDirection() {
+        return direction;
     }
 
     public void create(){

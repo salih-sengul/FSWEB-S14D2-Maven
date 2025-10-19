@@ -27,7 +27,11 @@ public class Bed {
     }
 
     public void make(){
-        System.out.println("The bed is being made");
+        System.out.println("The bed is being made.");
+    }
+
+    public String getStyle(){
+        return style;
     }
 
     public int getPillows(){
@@ -42,7 +46,7 @@ public class Bed {
         return sheets;
     }
 
-    public int getQuilt(){
+    public int getQuilts(){
         return quilts;
     }
 }
